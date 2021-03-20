@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><strong>Shopping.com</strong></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse my-1" id="navbarSupportedContent">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search"
+          aria-label="search text box"
+          aria-describedby="Search text box"
+        />
+        <div class="input-group-append">
+          <div class="btn btn-warning" type="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav mb-lg-0 ms-3">
+        <li class="nav-item dropdown li-custom">
+          <a
+            class="nav-link dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <div class="fa fa-user-circle-o fa-2x fa-search-colour" aria-hidden="true">
+              <span class="d-md-none mx-3">Profile</span>
+            </div>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end mt-1"
+            aria-labelledby="navbarDropdown"
+          >
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Setting</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </li>
+        <li class="nav-item li-custom">
+          <a
+            class="nav-link fa-stack fa-lg has-badge"
+            role="button"
+            data-count="10+"
+          >
+            <div class="fa fa-shopping-cart fa-lg fa-search-colour">
+              <span class="d-md-none mx-3">Cart</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
